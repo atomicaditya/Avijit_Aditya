@@ -1,0 +1,22 @@
+@media screen and (min-width: 600px){
+    #navbar{
+        position:fixed;
+        left:0;
+        width:10vw;
+        background-color: aliceblue;
+    }
+    #mainpane{
+        left:10%;
+        float:right;
+        padding-left: 10%;
+    }
+}
+
+@media screen and (max-width:600px){
+    #navbar{
+        position:fixed;
+        top:0;
+        width:100%;
+        background-color: aliceblue;
+    }
+}
