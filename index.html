@@ -26,42 +26,118 @@
     <script  src="js/index.js"></script>
     <main id ="main-doc">
 
-      <section class="main-section" id="electronic_calculator">
+      <section class="main-section" id="An_electronic_calculator">
         <header>
           <h2>An electronic calculator</h2>
+        </header>
           <p> It is a device used to perform calculations, ranging from basic arithmetic to complex mathematics.</p>
-          </header>
-      </section>
+          <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. In justo urna, varius sit amet lectus eu, porta hendrerit neque. Pellentesque imperdiet commodo ante ac molestie. Suspendisse potenti. Morbi scelerisque sagittis tortor, vel imperdiet quam eleifend eget. Mauris aliquam mauris in ante viverra, nec aliquam sem aliquet. Proin gravida augue tincidunt porta porta. Aenean sem mi, tristique in viverra eget, venenatis a tortor. Aliquam id nunc eu metus consectetur dictum. Suspendisse neque velit, molestie eget fermentum ornare, venenatis dapibus eros. In laoreet eros at sem accumsan dictum. Aenean quis lorem dignissim, eleifend nisl ut, dapibus lacus. In blandit tellus non lobortis scelerisque. Aenean vehicula iaculis nunc eu pretium. Integer commodo mi nec dui posuere, ut molestie massa luctus. Integer quis quam et tellus semper aliquam eu ac neque. Nunc sit amet justo bibendum, congue enim eu, elementum turpis.</p>
+          <code>
+            print ("Hello World!")
+          </code>
+        </section>
 
-      <section class="main-section" id="input">
+      <section class="main-section" id="Input">
         <header>
           <h2>Input</h2>
+        </header>
           <p> Electronic calculators contain a keyboard with buttons for digits and arithmetical operations; some even contain "00" and "000" buttons to make larger or smaller numbers easier to enter. Most basic calculators assign only one digit or operation on each button; however, in more specific calculators, a button can perform multi-function working with key combinations.</p>
-          </header>
-
+          <p> Proin euismod ligula vitae tellus pharetra, eget luctus tortor condimentum. Nulla suscipit eros convallis elementum varius. Vestibulum ornare, ligula ac elementum maximus, eros risus tristique dolor, ut fringilla purus eros non tortor. In porttitor risus ex, at pellentesque augue malesuada eget. Nulla consectetur enim tempus lectus dictum, ac condimentum neque ultrices. Mauris facilisis nisl nec magna aliquam suscipit sit amet et tortor. Sed molestie condimentum urna a mollis. Curabitur egestas erat in elit efficitur, sit amet lacinia sem sagittis. Ut facilisis augue turpis, id condimentum elit ultricies non. Vestibulum eleifend orci ligula, ut lacinia leo iaculis sit amet. Praesent laoreet nisl eu nunc hendrerit, quis feugiat metus dapibus. Quisque porttitor, ex a egestas laoreet, orci justo fringilla eros, id lobortis magna elit dictum tortor.</p>
       </section>
 
 
-      <section class="main-section" id="display_output">
+      <section class="main-section" id="Display_output">
         <header>
           <h2>Display output</h2>
+        </header>
           <p> Calculators usually have liquid-crystal displays (LCD) as output in place of historical light-emitting diode (LED) displays and vacuum fluorescent displays (VFD); details are provided in the section Technical improvements.</p>
-          </header>
+          <p> Aenean eget mattis magna. Mauris quis erat vehicula ipsum lacinia blandit. Nulla viverra malesuada orci. Curabitur fringilla nisl metus, at fringilla lorem cursus et. Proin sollicitudin nunc at mauris pulvinar, eget cursus turpis tincidunt. Nam eleifend risus quis lorem efficitur, in tempor felis congue. Morbi eu erat dui.</p>
+          <code># Program to check if a number is prime or not
+
+              num = 407
+              
+              # To take input from the user
+              #num = int(input("Enter a number: "))
+              
+              # prime numbers are greater than 1
+              if num > 1:
+                  # check for factors
+                  for i in range(2,num):
+                      if (num % i) == 0:
+                          print(num,"is not a prime number")
+                          print(i,"times",num//i,"is",num)
+                          break
+                  else:
+                      print(num,"is a prime number")
+                      
+              # if input number is less than
+              # or equal to 1, it is not prime
+              else:
+                  print(num,"is not a prime number")
+            </code>
+            <br>
+            <br>
+            <code>
+              # This program adds two numbers
+
+              num1 = 1.5
+              num2 = 6.3
+
+              # Add two numbers
+              sum = num1 + num2
+
+              # Display the sum
+              print('The sum of {0} and {1} is {2}'.format(num1, num2, sum))
+            </code>
       </section>
 
-      <section class="main-section" id="memory">
+      <section class="main-section" id="Memory">
         <header>
           <h2>Memory</h2>
+        </header>
           <p> Calculators also have the ability to store numbers into computer memory. Basic calculators usually store only one number at a time; more specific types are able to store many numbers represented in variables. The variables can also be used for constructing formulas. Some models have the ability to extend memory capacity to store more numbers; the extended memory address is termed an array index.</p>
-          </header>
+          <code>
+            print("Select operation.")
+            print("1.Add")
+            print("2.Subtract")
+            print("3.Multiply")
+            print("4.Divide")
+          </code>
+          <p>Pellentesque neque metus, commodo eu orci sed, rhoncus facilisis libero. Duis tristique bibendum odio. Sed nec est tortor. Suspendisse a elementum erat, at pellentesque sapien. Nunc sit amet purus eu turpis efficitur pellentesque non at neque. Suspendisse lobortis velit eget turpis accumsan interdum. Curabitur condimentum lacinia venenatis. Proin eu hendrerit ante. Pellentesque sollicitudin dictum odio nec egestas. Etiam urna diam, fermentum vel odio eu, faucibus bibendum lorem. Nulla rutrum justo et tincidunt sollicitudin. Phasellus volutpat nisl sit amet tincidunt condimentum. Aliquam at eleifend nibh. Praesent scelerisque ex est, et finibus arcu eleifend id. Donec semper, odio vel tincidunt posuere, magna nisl lacinia est, vitae maximus elit urna pellentesque nisi.</p>
       </section>
 
-      <section class="main-section" id="power_source">
+      <section class="main-section" id="Power_source">
 
         <header>
           <h2>Power source</h2>
+        </header>
+          <code>
+                    while True:
+            # Take input from the user
+            choice = input("Enter choice(1/2/3/4): ")
+
+            # Check if choice is one of the four options
+            if choice in ('1', '2', '3', '4'):
+                num1 = float(input("Enter first number: "))
+                num2 = float(input("Enter second number: "))
+
+                if choice == '1':
+                    print(num1, "+", num2, "=", add(num1, num2))
+
+                elif choice == '2':
+                    print(num1, "-", num2, "=", subtract(num1, num2))
+
+                elif choice == '3':
+                    print(num1, "*", num2, "=", multiply(num1, num2))
+
+                elif choice == '4':
+                    print(num1, "/", num2, "=", divide(num1, num2))
+                break
+            else:
+                print("Invalid Input")
+          </code>
           <p> Power sources of calculators are: batteries, solar cells or mains electricity (for old models), turning on with a switch or button. Some models even have no turn-off button but they provide some way to put off (for example, leaving no operation for a moment, covering solar cell exposure, or closing their lid). Crank-powered calculators were also common in the early computer era.</p>
-          </header>
+          <p>Suspendisse aliquam dolor sem, vel dignissim dui dictum sed. Fusce auctor, augue vitae posuere rhoncus, leo ante pulvinar nunc, vel gravida felis ipsum consequat velit. Nam ac egestas quam. Morbi et mauris pretium, maximus tortor a, dictum sapien. Sed et massa et ipsum tristique dictum. Nam quis consequat felis, vitae congue neque. Nulla tristique facilisis justo, vitae rhoncus dui finibus eu. Sed sollicitudin ipsum in arcu pellentesque suscipit. Curabitur non efficitur quam. Integer tristique ante non urna ultrices rutrum.</p>
       </section>
 
     </main>
